@@ -2,7 +2,7 @@ Package.describe({
   name: 'nahue:uikit-sass',
   summary: 'uikit Packaged for Meteor ',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/nahue/meteor-uikit-sass.git'
 });
 
 Package.onUse(function(api) {
