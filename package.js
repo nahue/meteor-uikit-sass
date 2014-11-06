@@ -15,6 +15,7 @@ Package.onUse(function(api) {
   api.addFiles([
       "_uikit.scss",
       path.join(asset_path,"scss", "uikit.scss"),
+      path.join(asset_path,"scss", "components.scss"),
       path.join(asset_path,"scss", "_uikit-mixins.scss"),
       path.join(asset_path,"scss", "_uikit-variables.scss"),
       path.join(asset_path,"scss", "core/_alert.scss"),
