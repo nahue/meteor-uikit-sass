@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('jquery');
+  //api.use('jquery');
 
   var path = Npm.require('path');
   var asset_path = path.join('lib');
@@ -104,7 +104,7 @@ api.addFiles([
       path.join(asset_path,"js","core/toggle.js"),
       path.join(asset_path,"js","core/tooltip.js"),
       path.join(asset_path,"js","core/touch.js"),
-      path.join(asset_path,"js","core/utility.js"),
+      path.join(asset_path,"js","core/utility.js")
 
   ], 'client');
 });
